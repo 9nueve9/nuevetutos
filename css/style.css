@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'PressStart';
+  src: url('../fonts/PressStart2P.ttf') format('truetype');
+}
+
+body {
+  background-color: #000;
+  color: #0ff;
+  font-family: 'PressStart', monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.video-box {
+  background: #111;
+  border: 3px solid #0ff;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 0 10px #0ff;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border: 2px solid #0ff;
+}
