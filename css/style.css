@@ -35,4 +35,18 @@ video {
   width: 100%;
   height: auto;
   border: 2px solid #0ff;
+} 
+.enlace-retro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: #0ff;
+  transition: transform 0.2s ease;
+}
+
+.enlace-retro:hover {
+  background: #0ff;
+  color: #000;
+  transform: scale(1.05);
 }
