@@ -35,7 +35,8 @@ video {
   width: 100%;
   height: auto;
   border: 2px solid #0ff;
-} 
+}
+
 .enlace-retro {
   display: flex;
   flex-direction: column;
