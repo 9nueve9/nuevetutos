@@ -1,53 +1,46 @@
-@font-face {
-  font-family: 'PressStart';
-  src: url('../fonts/PressStart2P.ttf') format('truetype');
-}
 
 body {
   background-color: #000;
   color: #0ff;
-  font-family: 'PressStart', monospace;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   padding: 20px;
 }
 
 .titulo {
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 30px;
 }
 
 .galeria {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .video-box {
-  background: #111;
-  border: 3px solid #0ff;
-  padding: 15px;
-  width: 300px;
-  box-shadow: 0 0 10px #0ff;
-}
-
-video {
-  width: 100%;
-  height: auto;
+  background-color: #111;
   border: 2px solid #0ff;
-}
-
-.enlace-retro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-decoration: none;
-  color: #0ff;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
   transition: transform 0.2s ease;
 }
 
-.enlace-retro:hover {
-  background: #0ff;
-  color: #000;
+.video-box:hover {
   transform: scale(1.05);
+}
+
+.imagen-casilla {
+  width: 100%;
+  height: auto;
+  border: 2px solid #0ff;
+  margin-bottom: 10px;
+  box-shadow: 0 0 8px #0ff;
+}
+
+.enlace-retro {
+  text-decoration: none;
+  color: #0ff;
 }
